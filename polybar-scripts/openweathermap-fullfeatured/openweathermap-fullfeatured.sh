@@ -52,7 +52,11 @@ get_duration() {
 
 }
 
-KEY=""
+if [[ -f .key ]]; then
+   KEY=`cat .key`
+else
+   KEY=""
+fi
 CITY=""
 UNITS="metric"
 SYMBOL="°"
