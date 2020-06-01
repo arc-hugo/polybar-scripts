@@ -10,4 +10,5 @@ This is a fork. go check the [original repository](https://github.com/polybar/po
 ##  Setup for my dotfiles
 
 * Clone the repository at `~/git/`.
+* If you want to use OWM, create a `.key` with your own key in [this directory](polybar-scripts/openweathermap-fullfeatured/)
 * That's it, you can use my current polybar config
