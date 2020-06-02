@@ -52,8 +52,9 @@ get_duration() {
 
 }
 
-if [[ -f .key ]]; then
-   KEY=`cat .key`
+BASEDIR=$(dirname "$0")
+if [[ -f $BASEDIR/.key ]]; then
+   KEY=`cat $BASEDIR/.key`
 else
    KEY=""
 fi
