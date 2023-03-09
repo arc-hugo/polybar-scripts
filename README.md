@@ -7,7 +7,6 @@ This is a fork. go check the [original repository](https://github.com/polybar/po
 [![updates-pacman-aurhelper](polybar-scripts/updates-pacman-aurhelper/screenshots/1.png)](polybar-scripts/updates-pacman-aurhelper/)
 [![system-bluetooth-bluetoothctl](polybar-scripts/system-bluetooth-bluetoothctl/screenshots/1.png)](polybar-scripts/system-bluetooth-bluetoothctl/)
 
-
 ##  Setup for my dotfiles
 
 * Clone the repository at `~/git/`.
